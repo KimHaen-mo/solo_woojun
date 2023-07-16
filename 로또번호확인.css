@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+header {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 30px;
+}
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  border: 3px solid #ff69b4;
+  width: 1300px;
+  height: 300px;
+  align-items: center;
+  border-radius: 20px;
+}
+li {
+  border-radius: 50%;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+.김채원 {
+  width: 150px;
+  height: 150px;
+  border: 7px solid #ffff00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.사쿠라 {
+  border: 7px solid #ffff00;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.허윤진 {
+  border: 7px solid red;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.카즈하 {
+  border: 7px solid #808080;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.홍은채 {
+  border: 7px solid #808080;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.쌈무 {
+  border: 7px solid #7cfc00;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.꾸라 {
+  font-size: 50px;
+}
+.만채 {
+  border: 7px solid blue;
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.최예나 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  display: flex;
+  width: 250px;
+  height: 60px;
+  border: none;
+  background: linear-gradient(45deg, Violet, Orange);
+  margin-top: 15px;
+  border-radius: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  cursor: pointer;
+}
+button:hover {
+  background: linear-gradient(Red 1px, Orange);
+}
+table {
+  margin-top: 20px;
+  border: 1px solid black;
+  width: 1100px;
+  height: 100px;
+}
+th {
+  border: 1px solid black;
+  width: 200px;
+  background-color: #7cfc00;
+  height: 50px;
+}
+tr {
+  border: 1px solid black;
+  width: 200px;
+  height: 50px;
+}
+td {
+  border: 1px solid black;
+  width: 200px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 19px;
+}
+.채원맘 {
+  background-color: yellow;
+}
+.dnwns {
+  background: linear-gradient(to right, #dd5e89, #f7bb97);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 200px;
+  margin-left: 20px;
+}
+.꾸라맘 {
+  display: flex;
+  flex-direction: row;
+}

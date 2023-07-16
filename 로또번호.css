@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+body {
+  height: 100vh;
+}
+h1 {
+  text-align: center;
+  background-color: #ffd700;
+  margin-top: 400px;
+  margin-left: 700px;
+  margin-right: 700px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 20px;
+}
+h1:hover {
+  transform: scale(1.2);
+  transition: 2s;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: underline;
+  transform: scale(1.2);
+}

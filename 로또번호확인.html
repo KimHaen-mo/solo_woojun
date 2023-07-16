@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./로또번호확인.css" />
+    <title>로또번호확인</title>
+  </head>
+  <body>
+    <header>
+      <h1>lotto</h1>
+    </header>
+    <div class="World">
+      <ul>
+        <li class="김채원">?</li>
+        <li class="사쿠라">?</li>
+        <li class="허윤진">?</li>
+        <li class="카즈하">?</li>
+        <li class="홍은채">?</li>
+        <li class="쌈무">?</li>
+        <li class="꾸라">+</li>
+        <li class="만채">?</li>
+      </ul>
+      <button class="최예나" id="Dazzler">클릭!</button>
+    </div>
+    <div class="꾸라맘">
+      <table>
+        <tr>
+          <th id="upup">0회차</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td class="채원맘">보너스 +</td>
+        </tr>
+      </table>
+      <button class="dnwns">로또번호 확인</button>
+    </div>
+    <script>
+      // postMalone 배열을 로드할 때 전달
+      const script = document.createElement("script");
+      script.src = "./로또번호.js";
+      script.onload = function () {
+        const storedPostMalone = JSON.parse(localStorage.getItem("postMalone"));
+        window.postMalone = storedPostMalone || [];
+      };
+      document.head.appendChild(script);
+    </script>
+  </body>
+</html>

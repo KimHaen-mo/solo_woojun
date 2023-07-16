@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+table {
+  border: 1px solid black;
+}
+tr {
+  border: 1px solid black;
+}
+td {
+  border: 1px solid black;
+  width: 110px;
+  height: 55px;
+  font-size: 19px;
+  font-weight: bold;
+  text-align: center;
+}
+th {
+  border: 1px solid black;
+  height: 100px;
+  background: linear-gradient(to top, yellow, lightGreen);
+  font-size: 30px;
+}
+div {
+  display: flex;
+  justify-content: center;
+}
+#re제로 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#모브사이코 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#마녀의여행 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#마슐 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#달이이끄는여행 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#물드는세계로내일로부터 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#샤를로트 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#블랙클로버 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#신중용사 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#전생했더니검이었습니다 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#오버로드 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#어과초 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#어마금 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#이세계삼촌 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#이세계식당 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 23px;
+  color: white;
+  background: linear-gradient(to top, yellow, red);
+}
+#고블린슬레이어 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#곰곰곰베어 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#기생수 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#나이츠매직 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#마법전쟁 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#로그호라이즌 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+
+#방패용사성공담 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#무직전생 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#주술회전 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#귀멸의칼날 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#유녀전기 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#짐승의길 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#신들에게주워진남자 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#전생슬 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#코노스바 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
+}
+#내청코 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#후르츠바스켓 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#타카기양 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#호리미야 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#뱅드림 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#어쨌든귀여워 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#에로망가선생 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#시키모리양 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#소드아트온라인 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#잔잔한내일로부터 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#하트커넥트 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#유포니엄 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#토라도라 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#옆자리괴물군 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
+#사쿠라장의애완그녀 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  background-image: linear-gradient(to top, #fbc2eb 0%, #a6c1ee 100%);
+}
